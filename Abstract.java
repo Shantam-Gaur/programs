@@ -7,7 +7,7 @@ abstract class AKTUniversity
           abstract void manager();//declaration
 }
           
-class college extends AKTUniversity
+class Abstract extends AKTUniversity
 {
 	//Override
          void manager()//definition
