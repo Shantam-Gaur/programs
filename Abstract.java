@@ -1,4 +1,5 @@
-abstract class AKTUniversity
+
+abstract  class AKTUniversity
 {
           void btech()
           { 
@@ -7,7 +8,7 @@ abstract class AKTUniversity
           abstract void manager();//declaration
 }
           
-class Abstract extends AKTUniversity
+public class Abstract extends AKTUniversity
 {
 	//Override
          void manager()//definition
@@ -18,7 +19,7 @@ class Abstract extends AKTUniversity
          {
                    System.out.println("self cource");
          }
-         public static void main(String[]ar)
+         public static void main(String[] args)
          {
                    college obj=new college();
                    obj.btech();
